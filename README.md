@@ -1,4 +1,9 @@
 # todo-project
 
-# we contnue the todo project so we add a css fow web application
+
+# we will start type html for the restaurant
+
+- this is the wireframe :
+
+![wireframe](wireframe.png)
 
