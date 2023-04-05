@@ -1,3 +1,4 @@
+'use strict'
 let user = prompt("Please enter your name:");
 console.log(user);
 
@@ -28,3 +29,26 @@ if (!skip) {
     alert("Welcome " + user);
   }
 }
+
+
+let answer = [];
+
+function questions (question) {
+  let input = prompt(question);
+  if (input == null || input == "") {
+    answer.push("invalid");
+  } else if(input == "yes" || input == "no"){
+    answer.push(input);
+  } else {
+      answer.push("invalid");
+    }
+  }
+
+
+questions("Do you want follow up questions (yes/no)?");
+
+questions("Do you have a bank account (yes/no)?");
+
+questions("Do you prefer to work at home (yes/no)?");
+console.log(answer);
+
